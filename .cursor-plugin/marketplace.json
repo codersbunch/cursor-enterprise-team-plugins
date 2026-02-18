@@ -1,0 +1,24 @@
+{
+  "name": "enterprise-team-plugins",
+  "owner": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "metadata": {
+    "description": "Enterprise and team productivity plugins: Code Review Automator and Technical Debt Tracker",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "code-review-automator",
+      "source": "./plugins/code-review-automator",
+      "description": "Generate PR descriptions, suggest reviewers, auto-create draft PRs with AI descriptions"
+    },
+    {
+      "name": "technical-debt-tracker",
+      "source": "./plugins/technical-debt-tracker",
+      "description": "Identify code smells, measure complexity, prioritize refactoring, create Jira/Linear tickets"
+    }
+  ]
+}

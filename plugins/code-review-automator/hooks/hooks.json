@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "sessionEnd": [
+      {
+        "command": "./scripts/create-draft-pr.sh",
+        "description": "Auto-create a draft PR with AI-generated description at end of session"
+      }
+    ]
+  }
+}

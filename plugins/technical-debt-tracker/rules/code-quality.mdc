@@ -1,0 +1,16 @@
+---
+description: Code quality standards to prevent technical debt accumulation
+alwaysApply: true
+---
+
+code-quality-standards:
+
+- Functions must not exceed 50 lines - extract helpers if longer
+- Files must not exceed 300 lines - split into modules if larger
+- Cyclomatic complexity must not exceed 10 per function
+- No TODO/FIXME comments older than 30 days without an associated ticket
+- No duplicate code blocks longer than 10 lines - extract to shared utility
+- Magic numbers must be named constants with descriptive names
+- Deeply nested code (more than 3 levels) must be refactored using early returns
+- Dead code (unreachable, unused exports) must be removed before merging
+- No commented-out code in committed files - use git history instead

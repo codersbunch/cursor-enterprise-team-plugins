@@ -1,0 +1,13 @@
+{
+  "name": "code-review-automator",
+  "displayName": "Code Review Automator",
+  "version": "1.0.0",
+  "description": "Generate PR descriptions, suggest reviewers based on code ownership, auto-create draft PRs, and check for style violations and breaking changes.",
+  "author": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "license": "MIT",
+  "keywords": ["code-review", "pull-request", "github", "automation", "team", "collaboration"],
+  "logo": "assets/logo.svg"
+}

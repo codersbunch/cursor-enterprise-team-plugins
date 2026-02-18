@@ -1,0 +1,16 @@
+---
+description: Pull request standards for consistent, reviewable, and well-documented code changes
+alwaysApply: true
+---
+
+pr-standards:
+
+- PR titles must follow Conventional Commits format: feat:, fix:, docs:, refactor:, chore:
+- Every PR must reference a ticket number in the description (e.g., Closes #123, Fixes JIRA-456)
+- PRs must include a description of what changed, why, and how to test
+- Keep PRs small and focused - one logical change per PR (aim for under 400 lines changed)
+- Add screenshots or recordings for any UI changes
+- Mark PRs as Draft until ready for review - never request review on incomplete work
+- Respond to all review comments before merging - never leave unresolved threads
+- Squash commits before merging to keep main branch history clean
+- Delete feature branches after merging
