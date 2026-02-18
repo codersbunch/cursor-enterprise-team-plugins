@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Identify code smells, measure cyclomatic complexity, prioritize refactoring efforts, and create Jira/Linear tickets for debt items.",
   "author": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "license": "MIT",
   "keywords": ["technical-debt", "code-quality", "refactoring", "complexity", "jira", "linear"],

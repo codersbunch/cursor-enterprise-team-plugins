@@ -11,7 +11,7 @@ Generate PR descriptions, suggest reviewers, auto-create draft PRs. Hooks auto-c
 Identify code smells, measure complexity, prioritize refactoring. Jira/Linear MCP integration for ticket creation.
 
 ## Author
-Praveen · praveen@codersbunch.com
+Praveen · praveen@coderbunch.com
 
 ## License
 MIT

@@ -1,8 +1,8 @@
 {
   "name": "enterprise-team-plugins",
   "owner": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "metadata": {
     "description": "Enterprise and team productivity plugins: Code Review Automator and Technical Debt Tracker",
